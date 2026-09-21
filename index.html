@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Privacy Policy for the Stockery mobile app — business assets and inventory." />
+  <meta name="description" content="Privacy Policy for the Stockery mobile app — inventory, GST billing and stock alerts for small businesses." />
   <title>Privacy Policy — Stockery</title>
   <link rel="icon" href="assets/logo.png" type="image/png" />
   <style>
@@ -124,6 +124,13 @@
       margin-bottom: 0.4rem;
     }
 
+    .card h3 {
+      font-size: 0.98rem;
+      font-weight: 700;
+      margin: 1.1rem 0 0.4rem;
+      color: var(--color-text);
+    }
+
     .card p:last-child,
     .card ul:last-child {
       margin-bottom: 0;
@@ -157,14 +164,15 @@
         <img src="assets/logo.png" alt="Stockery" height="52" />
       </div>
       <h1>Privacy Policy</h1>
-      <p class="meta"><strong>Effective date:</strong> March 23, 2026 &nbsp;·&nbsp; <strong>App:</strong> Stockery (Android &amp; iOS)</p>
+      <p class="meta"><strong>Effective date:</strong> September 21, 2026 &nbsp;·&nbsp; <strong>App:</strong> Stockery (Android &amp; iOS)</p>
     </header>
 
     <section class="card">
       <h2>Introduction</h2>
       <p>
-        Stockery (“we,” “our,” or “us”) provides a mobile application for managing business assets and inventory
-        (“Stockery” or the “App”). This Privacy Policy describes how we collect, use, store, and share information when you use the App.
+        Stockery (“we,” “our,” or “us”) provides a mobile application for small businesses to manage inventory, bill customers,
+        issue GST invoices, and receive stock alerts (“Stockery” or the “App”). This Privacy Policy describes what information we collect,
+        how we use it, who we share it with, and the choices you have.
       </p>
       <p>
         By using Stockery, you agree to this policy. If you do not agree, please do not use the App.
@@ -173,30 +181,91 @@
 
     <section class="card">
       <h2>Information we collect</h2>
-      <p>We collect information you provide and information generated when you use the App, including:</p>
+      <p>We collect the information you provide and the information created when you use the App.</p>
+
+      <h3>Your account</h3>
       <ul>
-        <li><strong>Account data:</strong> such as name, email address, and credentials when you register or sign in (including if you use Google sign-in).</li>
-        <li><strong>Business profile data:</strong> business name, business type, and related settings you configure in the App.</li>
-        <li><strong>Inventory and operational data:</strong> assets (products), quantities, locations, categories, statuses, units, custom fields, stock movements, activity history, and similar records you create.</li>
-        <li><strong>Images and files:</strong> photos or other files you upload in connection with assets (stored using our cloud file storage).</li>
-        <li><strong>Notifications data:</strong> in-app notifications we generate (for example, low stock or activity alerts) based on your data and App usage.</li>
-        <li><strong>Technical &amp; session data:</strong> information needed to keep you signed in and improve reliability (for example, session tokens stored on your device, and basic device/network context used for connectivity and caching).</li>
+        <li><strong>Account details:</strong> your name, email address and password when you register. Passwords are handled by our authentication provider and are never visible to us. If Sign in with Google is offered and you use it, we receive your name and email address from Google.</li>
+      </ul>
+
+      <h3>Your business</h3>
+      <ul>
+        <li><strong>Business profile:</strong> business name, business type, currency, date and time format, alert thresholds and similar settings.</li>
+        <li><strong>Invoice details:</strong> legal name, address, GSTIN, phone number, email address, invoice footer note and business logo, which are printed on your invoices.</li>
+        <li><strong>Inventory records:</strong> products, SKUs and barcodes, photos, cost and selling prices, GST rates, HSN/SAC codes, quantities, locations, categories, statuses, units, custom fields, batches and expiry dates, reorder rules, price lists, stock movements and activity history.</li>
+        <li><strong>Sales and purchasing records:</strong> invoices and their line items, sales orders, purchase orders and goods receipts.</li>
+      </ul>
+
+      <h3>Information about your customers and vendors</h3>
+      <ul>
+        <li>Names, phone numbers, email addresses, GSTINs, billing and shipping addresses and notes that you enter for your customers and suppliers.</li>
       </ul>
       <p>
-        We do not use Stockery for billing, invoicing, or payment processing within the scope described in our product documentation; we therefore do not collect payment card details through the core inventory features described here.
+        You decide what to enter about other people. We process it only to provide the App to you, and you are responsible for having
+        a lawful basis to record it and for informing those people where the law requires it.
       </p>
+
+      <h3>Subscriptions</h3>
+      <ul>
+        <li><strong>Subscription status:</strong> if you subscribe to Stockery Pro, we and our subscription provider receive your Stockery account ID, the plan you bought, purchase, renewal and expiry dates, and the store's transaction identifiers.</li>
+        <li><strong>No payment details:</strong> payments are processed entirely by Apple (App Store) or Google (Google Play). We never receive your card, UPI or bank details.</li>
+      </ul>
+
+      <h3>Notifications</h3>
+      <ul>
+        <li><strong>Alerts:</strong> the stock alerts we create from your data (for example, an item running low or a batch nearing expiry) and whether you have read them.</li>
+        <li><strong>Push notifications:</strong> if you turn them on, a push token for each device, the device platform, your notification preferences, your quiet hours and your device's time zone offset, so quiet hours are applied at the right local time.</li>
+      </ul>
+
+      <h3>Stored on your device</h3>
+      <ul>
+        <li>Your sign-in session, a cached copy of your business data so the App opens quickly and works when your connection drops, your theme and consent choices, and invoice PDFs the App creates when you share them.</li>
+      </ul>
+
+      <h3>Camera and photos</h3>
+      <ul>
+        <li>The camera is used to scan barcodes and to photograph items. Barcodes are read on your device and only the code itself is saved. Photos are uploaded only when you attach them to an item or add a logo.</li>
+      </ul>
     </section>
 
     <section class="card">
       <h2>How we use your information</h2>
       <p>We use the information above to:</p>
       <ul>
-        <li>Provide, operate, and maintain the App (authentication, syncing, storage, and backups as configured).</li>
-        <li>Show dashboards, analytics, activity timelines, and notifications based on your business data.</li>
-        <li>Support offline-friendly behavior where implemented (for example, local caching on your device).</li>
+        <li>Provide the App: sign you in, store and sync your business data across your devices, and keep it available when you are offline.</li>
+        <li>Create invoices and PDFs, keep your invoice numbers in sequence, and update stock when you bill, receive or adjust goods.</li>
+        <li>Show dashboards, reports, activity timelines and alerts based on your business data.</li>
+        <li>Send the push notifications you have turned on, respecting your preferences and quiet hours.</li>
+        <li>Confirm your subscription and unlock the features you have paid for.</li>
+        <li>Generate AI insights when you open that feature (see below).</li>
         <li>Protect security, prevent abuse, and comply with legal obligations.</li>
-        <li>Improve the App (for example, fixing errors and understanding aggregate usage patterns where permitted).</li>
+        <li>Fix errors and improve the App.</li>
       </ul>
+      <p>
+        We do not sell your personal information. We do not use it for advertising, and we do not track you across other companies' apps or websites.
+        The App contains no advertising or third-party analytics tools.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>AI insights</h2>
+      <p>
+        AI Insights is an optional Stockery Pro feature. When you open it, we send a summary of your inventory to OpenAI to generate the insights:
+        your business name and currency, product and unit counts, stock value, how many items are low or out of stock, and the names of a few items
+        that are selling fastest, not selling, or earning the lowest margin, with their figures.
+      </p>
+      <p>
+        We do not send customer or vendor details, invoices, or your account information. If the service is unavailable, the App creates the
+        insights on your device instead.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Sharing invoices and messages</h2>
+      <p>
+        When you send a bill or a stock summary by WhatsApp, email or your phone's share sheet, the App opens that app on your device with the
+        invoice or message ready to send. The message is sent by that app, under its own privacy policy. Stockery does not send messages on your behalf.
+      </p>
     </section>
 
     <section class="card">
@@ -204,38 +273,46 @@
       <p>
         If you are in the European Economic Area, the United Kingdom, or similar regions, we rely on appropriate legal bases such as:
         performing our contract with you (providing the App), our legitimate interests (security, product improvement, and communication about the service),
-        and consent where required (for example, certain optional features or marketing, if offered separately).
+        and consent where required (for example, push notifications, which you can turn off at any time).
       </p>
     </section>
 
     <section class="card">
-      <h2>Service providers &amp; infrastructure</h2>
+      <h2>Service providers</h2>
       <p>
-        We use trusted third-party services to run Stockery. Your data may be processed by:
+        We use trusted third-party services to run Stockery. They process your information only to provide their service to us:
       </p>
       <ul>
-        <li><strong>Supabase</strong> (or equivalent backend): database, authentication, and file storage for your account and business content.</li>
-        <li><strong>Google</strong>: if you choose “Sign in with Google,” Google’s authentication service processes data according to Google’s policies.</li>
-        <li><strong>Cloud and platform providers</strong> used to host, distribute, or monitor the App (for example, app store and analytics or crash reporting tools if enabled in your build).</li>
+        <li><strong>Supabase:</strong> database, authentication, file storage and server functions for your account and business data.</li>
+        <li><strong>RevenueCat:</strong> manages Stockery Pro subscriptions and tells the App which plan you are on.</li>
+        <li><strong>Apple (App Store) and Google (Google Play):</strong> distribute the App and process subscription payments.</li>
+        <li><strong>Expo, Apple Push Notification service and Firebase Cloud Messaging:</strong> deliver push notifications to your devices. Notifications can include item names, for example “Rice is out of stock.”</li>
+        <li><strong>OpenAI:</strong> generates AI insights from the inventory summary described above, only when you use that feature.</li>
+        <li><strong>Google Sign-In:</strong> authenticates you if this option is offered and you choose it.</li>
       </ul>
       <p>
-        These providers act on our instructions and are bound by contractual obligations to protect your information, subject to their own privacy notices for their standalone services (such as Google Sign-In).
+        Each provider handles data under its own privacy policy for its standalone services.
       </p>
     </section>
 
     <section class="card">
-      <h2>Data retention</h2>
+      <h2>Data retention and deletion</h2>
       <p>
-        We retain your information for as long as your account is active and as needed to provide the App, comply with law, resolve disputes, and enforce our agreements.
-        When you delete your account (where this feature is available in the App), we take steps to delete or anonymize associated personal data in line with our technical and legal obligations, subject to limited retention where required by law.
+        We keep your information while your account is active and as needed to provide the App, comply with the law, resolve disputes and enforce our agreements.
+        Alerts that have been read or resolved are removed automatically after 30 days.
+      </p>
+      <p>
+        You can delete your account in the App under <strong>Settings → Delete account</strong>. We then delete your account and the personal data associated
+        with it, except where we must keep certain records by law. Apple, Google and RevenueCat keep their own purchase records under their policies and legal obligations.
       </p>
     </section>
 
     <section class="card">
       <h2>Security</h2>
       <p>
-        We implement reasonable administrative, technical, and organizational measures designed to protect your information.
-        No method of transmission or storage is completely secure; you use the App at your own risk to that extent.
+        Data is sent over encrypted connections (HTTPS), and access controls ensure that only members of a business can see that business's data.
+        We use reasonable administrative, technical and organizational measures to protect your information. No method of transmission or storage
+        is completely secure; you use the App at your own risk to that extent.
       </p>
     </section>
 
@@ -249,8 +326,9 @@
         <li>Lodge a complaint with a supervisory authority.</li>
       </ul>
       <p>
-        You can update much of your information directly in the App (for example, profile, business settings, and inventory data).
-        To exercise other rights or ask questions, contact us using the details below.
+        You can update most of your information directly in the App, export your catalogue to Excel or CSV, turn push notifications and each alert type
+        on or off in Settings, and allow or deny camera, photo and notification permissions in your device settings. Subscriptions are managed and
+        cancelled in your App Store or Google Play account settings. To exercise other rights or ask questions, contact us using the details below.
       </p>
     </section>
 
@@ -285,7 +363,7 @@
     </section>
 
     <footer>
-      © Stockery. Inventory and asset visibility — not accounting or invoicing.
+      © 2026 Stockery. Inventory, GST billing and stock alerts for small businesses.
     </footer>
   </div>
 </body>
